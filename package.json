@@ -1,0 +1,25 @@
+{
+  "name": "headless-sitecore",
+  "version": "1.0.0",
+  "description": "Headless Sitecore",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "sitecore",
+    "headless",
+    "jss",
+    "nodejs",
+    "express"
+  ],
+  "author": "Tony Mamedbekov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "headless-sitecore"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
