@@ -1,5 +1,7 @@
-# Docker Hub URL
+# Pull
 
-```https://hub.docker.com/r/tmamedbekov/headless-sitecore```
+````docker pull tmamedbekov/headless-sitecore```
 
-## build an image
+## Run
+
+```docker run -p 5000:5000 -d tmamedbekov/headless-sitecore```
