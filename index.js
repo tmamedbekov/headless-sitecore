@@ -10,6 +10,9 @@ const config = require('./config');
 const server = express();
 const port = process.env.PORT || 5000;
 
+//not a good practice
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+
 // enable gzip compression for appropriate file types
 server.use(compression());
 
