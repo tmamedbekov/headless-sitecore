@@ -2,7 +2,7 @@
   "name": "headless-sitecore",
   "version": "1.0.0",
   "description": "Headless Sitecore",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "npm test"
   },
